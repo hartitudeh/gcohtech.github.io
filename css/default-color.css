@@ -1,0 +1,479 @@
+/*=======================================
+Template Design By MarkUps.
+Author URI : http://www.markups.io/
+========================================*/
+.scrollToTop {
+  background-color: #03e9f4a4;
+  border: 2px solid crimson;
+  color: crimson;
+}
+
+.gcoedu-read-more-btn:hover,
+.gcoedu-read-more-btn:focus {
+  background-color: #03e9f4;
+  border-color: #ccc;
+}
+
+.gcoedu-post-btn:hover,
+.gcoedu-post-btn:focus {
+  background-color: #03e9f4;
+  border-color: #03e9f4;
+  border: 2px solid;
+}
+
+#gcoedu-header
+  .gcoedu-header-area
+  .gcoedu-header-top-right
+  .gcoedu-top-social-nav
+  li
+  a:hover,
+#gcoedu-header
+  .gcoedu-header-area
+  .gcoedu-header-top-right
+  .gcoedu-top-social-nav
+  li
+  a:focus {
+  color: #03e9f4;
+}
+
+#gcoedu-menu .navbar-header .navbar-brand i {
+  color: #03e9f4;
+}
+#gcoedu-menu .navbar-default .navbar-nav li > a:hover,
+#gcoedu-menu .navbar-default .navbar-nav li > a:focus {
+  border-color: #03e9f4;
+  color: #03e9f4;
+}
+#gcoedu-menu .navbar-default .navbar-nav li .dropdown-menu {
+  border-top: 2px solid #03e9f4;
+}
+#gcoedu-menu .navbar-default .navbar-nav li .dropdown-menu li a:hover,
+#gcoedu-menu .navbar-default .navbar-nav li .dropdown-menu li a:focus {
+  background-color: #03e9f4;
+}
+#gcoedu-menu .navbar-default .navbar-nav .open a:hover,
+#gcoedu-menu .navbar-default .navbar-nav .open a:focus {
+  background-color: #03e9f4;
+}
+
+#gcoedu-menu .navbar-default .navbar-nav > .active > a,
+#gcoedu-menu .navbar-default .navbar-nav > .active > a:hover,
+#gcoedu-menu .navbar-default .navbar-nav > .active > a:focus {
+  color: #03e9f4;
+  border-bottom: 2px solid #03e9f4;
+  background-color: transparent;
+}
+
+#gcoedu-search .gcoedu-search-area .gcoedu-search-close {
+  background-color: #03e9f4;
+}
+
+#gcoedu-slider .gcoedu-slider-single .gcoedu-slider-content span {
+  background-color: #03e9f4;
+}
+#gcoedu-slider .slick-prev,
+#gcoedu-slider .slick-next {
+  background-color: #03e9f4;
+}
+
+#gcoedu-features
+  .gcoedu-features-area
+  .gcoedu-features-content
+  .gcoedu-single-feature
+  span {
+  color: #03e9f4;
+  border: 1px solid #03e9f4;
+}
+#gcoedu-features
+  .gcoedu-features-area
+  .gcoedu-features-content
+  .gcoedu-single-feature
+  a:hover,
+#gcoedu-features
+  .gcoedu-features-area
+  .gcoedu-features-content
+  .gcoedu-single-feature
+  a:focus {
+  color: #03e9f4;
+  border-color: #03e9f4;
+}
+
+#gcoedu-latest-courses
+  .gcoedu-latest-courses-area
+  .gcoedu-latest-courses-content
+  .slick-dots
+  .slick-active {
+  background-color: #03e9f4;
+}
+
+.gcoedu-latest-course-single
+  .gcoedu-latest-course-img
+  .gcoedu-latest-course-imgcaption
+  a:hover,
+.gcoedu-latest-course-single
+  .gcoedu-latest-course-img
+  .gcoedu-latest-course-imgcaption
+  a:focus {
+  color: #03e9f4;
+}
+.gcoedu-latest-course-single .gcoedu-latest-course-single-content h4 a:hover,
+.gcoedu-latest-course-single .gcoedu-latest-course-single-content h4 a:focus {
+  color: #03e9f4;
+}
+.gcoedu-latest-course-single
+  .gcoedu-latest-course-single-content
+  .gcoedu-latest-course-single-contbottom
+  .gcoedu-course-details {
+  color: #03e9f4;
+}
+
+#gcoedu-our-lecturer {
+  background: white;
+}
+
+#gcoedu-our-lecturer
+  .gcoedu-our-lecturer-area
+  .gcoedu-our-lecturer-content
+  .gcoedu-our-lecturer-single
+  .gcoedu-our-lecturer-img
+  .gcoedu-our-lecturer-social {
+  background-color: #03e9f441;
+}
+#gcoedu-our-lecturer
+  .gcoedu-our-lecturer-area
+  .gcoedu-our-lecturer-content
+  .gcoedu-our-lecturer-single
+  .gcoedu-our-lecturer-img
+  .gcoedu-our-lecturer-social
+  a:hover,
+#gcoedu-our-lecturer
+  .gcoedu-our-lecturer-area
+  .gcoedu-our-lecturer-content
+  .gcoedu-our-lecturer-single
+  .gcoedu-our-lecturer-img
+  .gcoedu-our-lecturer-social
+  a:focus {
+  color: #03e9f4;
+}
+
+#gcoedu-testimonial
+  .gcoedu-testimonial-area
+  .gcoedu-testimonial-content
+  .gcoedu-testimonial-item
+  .gcoedu-testimonial-info
+  span {
+  color: #ccc;
+}
+#gcoedu-testimonial
+  .gcoedu-testimonial-area
+  .gcoedu-testimonial-content
+  .slick-dots
+  .slick-active {
+  background-color: #03e9f4;
+}
+
+.gcoedu-blog-single-item
+  .gcoedu-blog-single-img
+  .gcoedu-blog-caption
+  h3
+  a:hover {
+  color: #03e9f4;
+}
+.gcoedu-blog-single-item .gcoedu-blog-meta a:hover,
+.gcoedu-blog-single-item .gcoedu-blog-meta a:focus {
+  color: #03e9f4;
+}
+.gcoedu-blog-single-item .gcoedu-blog-description a:hover,
+.gcoedu-blog-single-item .gcoedu-blog-description a:focus {
+  border-color: #03e9f4;
+}
+
+#gcoedu-page-breadcrumb .gcoedu-page-breadcrumb-area .breadcrumb .active {
+  color: #03e9f4;
+}
+
+#gcoedu-course-content {
+  background-color: #f8f8f8;
+  display: inline;
+  float: left;
+  padding: 100px 0;
+  width: 100%;
+}
+#gcoedu-course-content .gcoedu-course-content-area {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+#gcoedu-course-content .gcoedu-course-content-area .gcoedu-course-container {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+#gcoedu-course-content
+  .gcoedu-course-content-area
+  .gcoedu-course-container
+  .gcoedu-latest-course-single {
+  border: 1px solid #ccc;
+  margin-bottom: 30px;
+}
+#gcoedu-course-content
+  .gcoedu-course-content-area
+  .gcoedu-sidebar
+  .gcoedu-single-sidebar
+  .gcoedu-sidebar-catg
+  li
+  a:hover,
+#gcoedu-course-content
+  .gcoedu-course-content-area
+  .gcoedu-sidebar
+  .gcoedu-single-sidebar
+  .gcoedu-sidebar-catg
+  li
+  a:focus {
+  color: #03e9f4;
+}
+#gcoedu-course-content
+  .gcoedu-course-content-area
+  .gcoedu-sidebar
+  .gcoedu-single-sidebar
+  .gcoedu-sidebar-popular-courses
+  .media
+  .media-body
+  .media-heading
+  a:hover,
+#gcoedu-course-content
+  .gcoedu-course-content-area
+  .gcoedu-sidebar
+  .gcoedu-single-sidebar
+  .gcoedu-sidebar-popular-courses
+  .media
+  .media-body
+  .media-heading
+  a:focus {
+  color: #03e9f4;
+}
+#gcoedu-course-content
+  .gcoedu-course-content-area
+  .gcoedu-sidebar
+  .gcoedu-single-sidebar
+  .tag-cloud
+  a:hover,
+#gcoedu-course-content
+  .gcoedu-course-content-area
+  .gcoedu-sidebar
+  .gcoedu-single-sidebar
+  .tag-cloud
+  a:focus {
+  color: #03e9f4;
+  border-color: #03e9f4;
+}
+
+.gcoedu-pagination .pagination li a:hover,
+.gcoedu-pagination .pagination li a:focus {
+  background-color: #03e9f4;
+  border-color: #03e9f4;
+}
+.gcoedu-pagination .pagination .active a {
+  background-color: #03e9f4;
+  border-color: #03e9f4;
+}
+
+.gcoedu-related-item {
+  display: inline;
+  float: left;
+  margin-top: 30px;
+  width: 100%;
+}
+.gcoedu-related-item
+  .gcoedu-related-item-area
+  #gcoedu-related-item-slide
+  .slick-prev,
+.gcoedu-related-item
+  .gcoedu-related-item-area
+  #gcoedu-related-item-slide
+  .slick-next {
+  background-color: #03e9f4;
+}
+
+.gcoedu-blog-single
+  .gcoedu-blog-single-item
+  .gcoedu-blog-tags
+  .gcoedu-news-single-tagnav
+  li
+  a:hover,
+.gcoedu-blog-single
+  .gcoedu-blog-single-item
+  .gcoedu-blog-tags
+  .gcoedu-news-single-tagnav
+  li
+  a:focus {
+  color: #03e9f4;
+}
+.gcoedu-blog-single
+  .gcoedu-blog-single-item
+  .gcoedu-blog-social
+  .gcoedu-news-social-nav
+  li
+  a:hover,
+.gcoedu-blog-single
+  .gcoedu-blog-single-item
+  .gcoedu-blog-social
+  .gcoedu-news-social-nav
+  li
+  a:focus {
+  background-color: #03e9f4;
+  border-color: #03e9f4;
+}
+
+.gcoedu-blog-single-navigation a:hover,
+.gcoedu-blog-single-navigation a:focus {
+  background-color: #03e9f4;
+  border-color: #03e9f4;
+}
+
+.gcoedu-comments-area {
+  display: inline;
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+}
+.gcoedu-comments-area h3 {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+}
+.gcoedu-comments-area .comments .commentlist li .reply-btn:hover,
+.gcoedu-comments-area .comments .commentlist li .reply-btn:focus {
+  background-color: #03e9f4;
+  border-color: #03e9f4;
+}
+.gcoedu-comments-area .comments .commentlist li .author-tag {
+  background-color: #03e9f4;
+}
+.gcoedu-comments-area .comments .comments-pagination li a:hover,
+.gcoedu-comments-area .comments .comments-pagination li a:focus {
+  color: #03e9f4;
+}
+
+#gcoedu-gallery .gcoedu-gallery-area .gcoedu-gallery-content {
+  width: 100%;
+}
+#gcoedu-gallery
+  .gcoedu-gallery-area
+  .gcoedu-gallery-content
+  .gcoedu-gallery-top
+  ul
+  li {
+  background-color: #03e9f4;
+  border: 1px solid #03e9f4;
+  border-radius: 5px;
+}
+#gcoedu-gallery
+  .gcoedu-gallery-area
+  .gcoedu-gallery-content
+  .gcoedu-gallery-top
+  ul
+  li:hover,
+#gcoedu-gallery
+  .gcoedu-gallery-area
+  .gcoedu-gallery-content
+  .gcoedu-gallery-top
+  ul
+  li:focus {
+  color: #03e9f4;
+  border-color: #03e9f4;
+}
+#gcoedu-gallery
+  .gcoedu-gallery-area
+  .gcoedu-gallery-content
+  .gcoedu-gallery-top
+  ul
+  .active {
+  color: #03e9f4;
+  border-color: #03e9f4;
+}
+#gcoedu-gallery
+  .gcoedu-gallery-area
+  .gcoedu-gallery-content
+  .gcoedu-gallery-body
+  ul
+  li
+  .gcoedu-single-gallery
+  .gcoedu-single-gallery-item
+  .gcoedu-single-gallery-info
+  .gcoedu-single-gallery-info-inner
+  a {
+  background-color: #03e9f4;
+}
+
+#gcoedu-contact
+  .gcoedu-contact-area
+  .gcoedu-contact-content
+  .gcoedu-contact-left
+  .contactform
+  input[type="text"]:focus,
+#gcoedu-contact
+  .gcoedu-contact-area
+  .gcoedu-contact-content
+  .gcoedu-contact-left
+  .contactform
+  input[type="email"]:focus,
+#gcoedu-contact
+  .gcoedu-contact-area
+  .gcoedu-contact-content
+  .gcoedu-contact-left
+  .contactform
+  input[type="url"]:focus {
+  border-color: #03e9f4;
+}
+#gcoedu-contact
+  .gcoedu-contact-area
+  .gcoedu-contact-content
+  .gcoedu-contact-left
+  .contactform
+  textarea:focus {
+  border-color: #03e9f4;
+}
+
+#gcoedu-error .gcoedu-error-area h2 {
+  color: #03e9f4;
+}
+
+#gcoedu-footer
+  .gcoedu-footer-top
+  .gcoedu-footer-top-area
+  .gcoedu-footer-widget
+  ul
+  li
+  a:hover,
+#gcoedu-footer
+  .gcoedu-footer-top
+  .gcoedu-footer-top-area
+  .gcoedu-footer-widget
+  ul
+  li
+  a:focus {
+  color: #03e9f4;
+}
+#gcoedu-footer
+  .gcoedu-footer-top
+  .gcoedu-footer-top-area
+  .gcoedu-footer-widget
+  .gcoedu-subscribe-form
+  input[type="email"]:focus {
+  border-color: #03e9f4;
+}
+#gcoedu-footer
+  .gcoedu-footer-top
+  .gcoedu-footer-top-area
+  .gcoedu-footer-widget
+  .gcoedu-subscribe-form
+  .gcoedu-subscribe-btn {
+  background-color: #03e9f4;
+}
+
+/*=======================================
+Template Design By MarkUps.
+Author URI : http://www.markups.io/
+========================================*/
