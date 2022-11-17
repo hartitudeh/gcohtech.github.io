@@ -1,0 +1,1362 @@
+/* -webkit-animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both;
+	        animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both; */
+/*
+ * ----------------------------------------
+ * animation tracking-in-expand
+ * ----------------------------------------
+ */
+
+/* @-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+
+  
+  /*==================
+   TESTIMONIAL SECTION
+  ====================*/
+  #gcoedu-testimonial {
+    /* background-attachment: fixed;
+    background-image: url("../../images/background/tb.jpg") !important;
+    background-position: center center;
+    background-size: cover; */
+    background: url(../../images/background/topographic-bg-30pc.png) !important;
+    display: inline-block;
+    padding: 50px 0 15px;
+    position: relative;
+    width: 100%;
+    z-index: 10;
+  }
+  #gcoedu-testimonial:after {
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
+  #gcoedu-testimonial .gcoedu-testimonial-area {
+    display: inline-block;
+    padding: 0 150px;
+    position: relative;
+    width: 100%;
+    z-index: 99;
+  }
+  #gcoedu-testimonial .gcoedu-testimonial-area .gcoedu-testimonial-content {
+    display: inline-block;
+    width: 100%;
+  }
+  #gcoedu-testimonial
+    .gcoedu-testimonial-area
+    .gcoedu-testimonial-content
+    .gcoedu-testimonial-item {
+    display: inline-block;
+    width: 100%;
+    outline: none;
+  }
+  
+  #gcoedu-testimonial .gcoedu-testimonial-quote .quote {
+    top: -141px;
+    display: inline-block;
+    left: 47%;
+    margin-bottom: 0;
+    position: relative;
+    width: auto;
+  }
+  
+  #gcoedu-testimonial
+    .gcoedu-testimonial-area
+    .gcoedu-testimonial-content
+    .gcoedu-testimonial-item
+    .gcoedu-testimonial-quote {
+    background-color: #04933c;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 60px 30px;
+    width: 100%;
+    position: relative;
+  }
+  
+  #gcoedu-testimonial
+    .gcoedu-testimonial-area
+    .gcoedu-testimonial-content
+    .gcoedu-testimonial-item
+    .gcoedu-testimonial-quote::before {
+    content: "";
+    background: #04933c;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 47%;
+    bottom: -25px;
+    transform: rotate(45deg);
+  }
+  
+  #gcoedu-testimonial
+    .gcoedu-testimonial-area
+    .gcoedu-testimonial-content
+    .gcoedu-testimonial-item
+    .gcoedu-testimonial-quote
+    blockquote {
+    height: 90px;
+    border: none !important;
+    text-align: center;
+    margin-bottom: 0;
+    position: relative;
+    margin-right: 20px;
+    overflow: auto;
+  }
+  
+  #gcoedu-testimonial
+    .gcoedu-testimonial-area
+    .gcoedu-testimonial-content
+    .gcoedu-testimonial-item
+    .gcoedu-testimonial-quote
+    blockquote
+    p {
+    color: #f3f3f3;
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    line-height: 1.8;
+    margin-bottom: 0;
+    height: 90px;
+  }
+  
+  #gcoedu-testimonial
+    .gcoedu-testimonial-area
+    .gcoedu-testimonial-content
+    .gcoedu-testimonial-item
+    .gcoedu-testimonial-img {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+  #gcoedu-testimonial
+    .gcoedu-testimonial-area
+    .gcoedu-testimonial-content
+    .gcoedu-testimonial-item
+    .gcoedu-testimonial-img
+    img {
+    background-color: #0aec61d4;
+    border: 5px solid #04933c;
+    border-radius: 50%;
+    margin: 40px auto 5px;
+    padding: 5px;
+    width: 120px;
+    height: 120px;
+  }
+  #gcoedu-testimonial
+    .gcoedu-testimonial-area
+    .gcoedu-testimonial-content
+    .gcoedu-testimonial-item
+    .gcoedu-testimonial-info {
+    display: inline-block;
+    /*float: left;*/
+    width: 100%;
+    text-align: center;
+  }
+  #gcoedu-testimonial
+    .gcoedu-testimonial-area
+    .gcoedu-testimonial-content
+    .gcoedu-testimonial-item
+    .gcoedu-testimonial-info
+    h4 {
+    color: #04933c;
+    font-size: 20px !important;
+    margin-bottom: 0px;
+    font-weight: 700;
+  }
+  #gcoedu-testimonial
+    .gcoedu-testimonial-area
+    .gcoedu-testimonial-content
+    .gcoedu-testimonial-item
+    .gcoedu-testimonial-info
+    span {
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    color: gray !important;
+    font-weight: 500;
+  }
+  #gcoedu-testimonial
+    .gcoedu-testimonial-area
+    .gcoedu-testimonial-content
+    .slick-dots
+    li {
+    background-color: #fff;
+    height: 8px;
+    width: 20px;
+  }
+  #gcoedu-testimonial
+    .gcoedu-testimonial-area
+    .gcoedu-testimonial-content
+    .slick-dots
+    li
+    button {
+    display: none;
+  }
+  
+  
+  
+  /*==================
+   GALLERY PAGE
+  ====================*/
+  #gcoedu-gallery {
+    display: inline-block;
+    padding: 100px 0;
+    width: 100%;
+    background: url(../../images/background/topographic-bg-30pc.png);
+    padding: 20px auto;
+  }
+  #gcoedu-gallery .gcoedu-gallery-area {
+    display: inline-block;
+    /* /*float: left;*/
+    width: 100%;
+  }
+  #gcoedu-gallery .gcoedu-gallery-area .gcoedu-gallery-content {
+    display: inline-block;
+    /* /*float: left;*/
+    width: 100%;
+  }
+  #gcoedu-gallery
+    .gcoedu-gallery-area
+    .gcoedu-gallery-content
+    .gcoedu-gallery-top {
+    display: inline-block;
+    /* /*float: left;*/
+    margin-top: 50px;
+    padding: 20px 0;
+    width: 100%;
+  }
+  #gcoedu-gallery
+    .gcoedu-gallery-area
+    .gcoedu-gallery-content
+    .gcoedu-gallery-top
+    ul {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
+  #gcoedu-gallery
+    .gcoedu-gallery-area
+    .gcoedu-gallery-content
+    .gcoedu-gallery-top
+    ul
+    li {
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin: 0 5px;
+    padding: 6px 15px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  #gcoedu-gallery
+    .gcoedu-gallery-area
+    .gcoedu-gallery-content
+    .gcoedu-gallery-top
+    ul
+    li:hover,
+  #gcoedu-gallery
+    .gcoedu-gallery-area
+    .gcoedu-gallery-content
+    .gcoedu-gallery-top
+    ul
+    li:focus {
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  #gcoedu-gallery
+    .gcoedu-gallery-area
+    .gcoedu-gallery-content
+    .gcoedu-gallery-top
+    ul
+    .active {
+    background-color: #fff;
+    border-radius: 5px;
+    color: #04933c;
+  }
+  #gcoedu-gallery
+    .gcoedu-gallery-area
+    .gcoedu-gallery-content
+    .gcoedu-gallery-body {
+    display: inline-block;
+    /*float: left;*/
+    width: 100%;
+    margin-top: 50px;
+  }
+  #gcoedu-gallery
+    .gcoedu-gallery-area
+    .gcoedu-gallery-content
+    .gcoedu-gallery-body
+    ul
+    li
+    .gcoedu-single-gallery {
+    display: inline-block;
+    /*float: left;*/
+    /* margin-bottom: 30px; */
+    width: 100%;
+  }
+  #gcoedu-gallery
+    .gcoedu-gallery-area
+    .gcoedu-gallery-content
+    .gcoedu-gallery-body
+    ul
+    li
+    .gcoedu-single-gallery
+    .gcoedu-single-gallery-item {
+    display: inline-block;
+    /*float: left;*/
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+  }
+  #gcoedu-gallery
+    .gcoedu-gallery-area
+    .gcoedu-gallery-content
+    .gcoedu-gallery-body
+    ul
+    li
+    .gcoedu-single-gallery
+    .gcoedu-single-gallery-item:hover
+    .gcoedu-single-gallery-img
+    img {
+    transform: scale(1.3);
+  }
+  #gcoedu-gallery
+    .gcoedu-gallery-area
+    .gcoedu-gallery-content
+    .gcoedu-gallery-body
+    ul
+    li
+    .gcoedu-single-gallery
+    .gcoedu-single-gallery-item:hover
+    .gcoedu-single-gallery-info {
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 1;
+    transform: scale(1);
+  }
+  #gcoedu-gallery
+    .gcoedu-gallery-area
+    .gcoedu-gallery-content
+    .gcoedu-gallery-body
+    ul
+    li
+    .gcoedu-single-gallery
+    .gcoedu-single-gallery-item:hover
+    .gcoedu-single-gallery-info
+    .gcoedu-single-gallery-info-inner {
+    transform: scale(1);
+  }
+  #gcoedu-gallery
+    .gcoedu-gallery-area
+    .gcoedu-gallery-content
+    .gcoedu-gallery-body
+    ul
+    li
+    .gcoedu-single-gallery
+    .gcoedu-single-gallery-item
+    .gcoedu-single-gallery-img {
+    display: inline-block;
+    /*float: left;*/
+    height: 220px;
+    overflow: hidden;
+    width: 100%;
+  }
+  #gcoedu-gallery
+    .gcoedu-gallery-area
+    .gcoedu-gallery-content
+    .gcoedu-gallery-body
+    ul
+    li
+    .gcoedu-single-gallery
+    .gcoedu-single-gallery-item
+    .gcoedu-single-gallery-img
+    img {
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+  #gcoedu-gallery
+    .gcoedu-gallery-area
+    .gcoedu-gallery-content
+    .gcoedu-gallery-body
+    ul
+    li
+    .gcoedu-single-gallery
+    .gcoedu-single-gallery-item
+    .gcoedu-single-gallery-info {
+    background-color: rgba(0, 0, 0, 0.2);
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    padding-top: 70px;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    top: 0;
+    transform: scale(1);
+    width: 100%;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+  #gcoedu-gallery
+    .gcoedu-gallery-area
+    .gcoedu-gallery-content
+    .gcoedu-gallery-body
+    ul
+    li
+    .gcoedu-single-gallery
+    .gcoedu-single-gallery-item
+    .gcoedu-single-gallery-info
+    .gcoedu-single-gallery-info-inner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    transform: scale(0);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  #gcoedu-gallery
+    .gcoedu-gallery-area
+    .gcoedu-gallery-content
+    .gcoedu-gallery-body
+    ul
+    li
+    .gcoedu-single-gallery
+    .gcoedu-single-gallery-item
+    .gcoedu-single-gallery-info
+    .gcoedu-single-gallery-info-inner
+    h4 {
+    color: #fff;
+    font-size: 19px;
+    line-height: 1.3;
+    margin-bottom: 0;
+    text-transform: uppercase;
+  }
+  #gcoedu-gallery
+    .gcoedu-gallery-area
+    .gcoedu-gallery-content
+    .gcoedu-gallery-body
+    ul
+    li
+    .gcoedu-single-gallery
+    .gcoedu-single-gallery-item
+    .gcoedu-single-gallery-info
+    .gcoedu-single-gallery-info-inner
+    p {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+  }
+  #gcoedu-gallery .gcoedu-single-gallery-info-inner .gallery__date {
+    background-color: #ccc;
+    position: absolute;
+    color: #04933c;
+    /* color: #0aec61d4; */
+    top: -85px;
+    left: 0px;
+    padding: 10px;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+  }
+  #gcoedu-gallery .gcoedu-single-gallery-info-inner .gallery__date span.day {
+    width: 100%;
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  #gcoedu-gallery
+    .gcoedu-gallery-area
+    .gcoedu-gallery-content
+    .gcoedu-gallery-body
+    ul
+    li
+    .gcoedu-single-gallery
+    .gcoedu-single-gallery-item
+    .gcoedu-single-gallery-info
+    .gcoedu-single-gallery-info-inner
+    a {
+    color: #fff;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 10px;
+    text-align: center;
+    width: 40px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  #gcoedu-gallery .gcoedu-gallery-area #mixit-container .mix {
+    display: none;
+  }
+  
+  
+  /*==================
+   RESPONSIVE DESIGN
+  ====================*/
+  @media (max-width: 1199px) {
+    #gcoedu-slider .gcoedu-slider-single .gcoedu-slider-content {
+      padding: 0 10%;
+    }
+  
+    #gcoedu-slider .gcoedu-slider-single .gcoedu-slider-content {
+      top: 13%;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .header__socials {
+      padding-left: 90px !important;
+    }
+    .header__socials a i {
+      font-size: 1.4rem !important;
+      margin: 0 0.5rem !important;
+    }
+    .reg__details h1.reg__details--title {
+      font-size: 2.5rem !important;
+    }
+  }
+  
+  @media (max-width: 996px) {
+    .first__header {
+      display: none !important;
+    }
+    .header1 {
+      position: sticky;
+      top: 8% !;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    #gcoedu-menu .navbar-default .navbar-nav li > a {
+      font-size: 15px;
+      padding: 25px 10px;
+    }
+  
+    #gcoedu-search .gcoedu-search-area {
+      padding: 30% 0;
+    }
+  
+    #gcoedu-slider .gcoedu-slider-single .gcoedu-slider-content h2 {
+      font-size: 35px;
+      line-height: 65px;
+      margin-bottom: 0;
+    }
+  
+    #gcoedu-slider .gcoedu-slider-single .gcoedu-slider-img {
+      height: 400px;
+    }
+  
+    #gcoedu-slider .gcoedu-slider-single .gcoedu-slider-content a {
+      font-size: 15px;
+      margin-top: 5px;
+      padding: 5px 15px;
+    }
+  
+    #gcoedu-slider .gcoedu-slider-single .gcoedu-slider-content p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  
+    #gcoedu-service .gcoedu-service-area .gcoedu-service-single h3 {
+      font-size: 20px;
+    }
+  
+    #gcoedu-about-us {
+      padding: 60px 0;
+    }
+  
+    #gcoedu-about-us .gcoedu-about-us-area .gcoedu-about-us-right {
+      margin-top: 30px;
+    }
+  
+    #gcoedu-abtus-counter {
+      background-size: 100% 100%;
+      padding: 60px 0;
+    }
+  
+    #gcoedu-abtus-counter
+      .gcoedu-abtus-counter-area
+      .gcoedu-abtus-counter-single
+      span {
+      font-size: 40px;
+    }
+  
+    #gcoedu-abtus-counter
+      .gcoedu-abtus-counter-area
+      .gcoedu-abtus-counter-single
+      h4 {
+      font-size: 30px;
+      margin-top: 15px;
+    }
+  
+    #about-video-popup span {
+      top: 20px;
+      position: absolute;
+      right: 20px;
+    }
+  
+    #gcoedu-features {
+      padding: 60px 0;
+    }
+  
+    .gcoedu-title p {
+      padding: 0 20px;
+    }
+  
+    #gcoedu-features .gcoedu-features-area .gcoedu-features-content {
+      margin-top: 30px;
+    }
+  
+    #gcoedu-latest-courses {
+      padding: 60px 0 90px;
+    }
+  
+    #gcoedu-our-lecturer {
+      padding: 60px 0;
+      width: 100%;
+    }
+  
+    #gcoedu-our-lecturer
+      .gcoedu-our-lecturer-area
+      .gcoedu-our-lecturer-content
+      .gcoedu-our-lecturer-single {
+      margin-bottom: 30px;
+    }
+  
+    #gcoedu-testimonial .gcoedu-testimonial-area {
+      padding: 0 20px;
+    }
+  
+    #gcoedu-testimonial
+      .gcoedu-testimonial-area
+      .gcoedu-testimonial-content
+      .gcoedu-testimonial-item
+      .gcoedu-testimonial-quote {
+      padding: 60px 15px;
+    }
+  
+    #gcoedu-testimonial
+      .gcoedu-testimonial-area
+      .gcoedu-testimonial-content
+      .gcoedu-testimonial-item
+      .gcoedu-testimonial-quote
+      blockquote::before {
+      left: 0;
+    }
+  
+    #gcoedu-from-blog {
+      padding: 60px 0;
+    }
+  
+    #gcoedu-from-blog .gcoedu-from-blog-area .gcoedu-from-blog-content {
+      margin-top: 30px;
+    }
+  
+    #gcoedu-from-blog
+      .gcoedu-from-blog-area
+      .gcoedu-from-blog-content
+      .gcoedu-blog-single-item
+      .gcoedu-blog-meta
+      a {
+      letter-spacing: 0;
+      margin-right: 5px;
+    }
+  
+    #gcoedu-from-blog
+      .gcoedu-from-blog-area
+      .gcoedu-from-blog-content
+      .gcoedu-blog-single-item
+      .gcoedu-blog-single-img
+      .gcoedu-blog-caption
+      h3 {
+      font-size: 20px;
+    }
+  
+    #gcoedu-course-content .gcoedu-course-content-area .gcoedu-sidebar {
+      margin-top: 30px;
+    }
+  
+    #gcoedu-search .gcoedu-search-area .gcoedu-search-form input[type="search"] {
+      font-size: 30px;
+    }
+  
+    #gcoedu-search .gcoedu-search-area .gcoedu-search-close {
+      right: 50px;
+    }
+  
+    #gcoedu-search .gcoedu-search-area {
+      padding: 35% 0;
+    }
+  
+    #gcoedu-contact
+      .gcoedu-contact-area
+      .gcoedu-contact-content
+      .gcoedu-contact-right {
+      margin-top: 50px;
+    }
+  }
+  
+  @media (max-width: 984px) {
+    .left__design {
+      display: none !important;
+    }
+    .center__design {
+      justify-content: center !important;
+      align-items: center !important;
+    }
+    .center__design .center__logo {
+      margin: 0 !important;
+      width: 100%;
+    }
+    .right__design {
+      display: none !important;
+    }
+  }
+  @media (max-width: 767px) {
+    .navbar-header {
+      padding: 10px 0;
+    }
+  
+    #gcoedu-menu .navbar-header .navbar-brand {
+      padding-top: 10px;
+    }
+  
+    #gcoedu-search-icon {
+      display: none;
+    }
+  
+    .navbar-toggle {
+      background-color: #0aec61d4;
+      border-radius: 0;
+    }
+  
+    .navbar-default .navbar-toggle {
+      border-color: #0aec61d4;
+    }
+  
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: #fff;
+    }
+  
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus {
+      background-color: #0aec61d4;
+    }
+  
+    #gcoedu-menu .navbar-default .navbar-nav li > a {
+      padding: 15px 20px;
+    }
+  
+    #gcoedu-slider .gcoedu-slider-single .gcoedu-slider-content h2 {
+      font-size: 30px;
+      line-height: 60px;
+    }
+  
+    #gcoedu-abtus-counter {
+      background-position: center center;
+      background-size: cover;
+    }
+  
+    #gcoedu-abtus-counter
+      .gcoedu-abtus-counter-area
+      .gcoedu-abtus-counter-single {
+      border: medium none;
+      margin-bottom: 25px;
+    }
+  
+    #gcoedu-features
+      .gcoedu-features-area
+      .gcoedu-features-content
+      .gcoedu-single-feature {
+      text-align: center;
+    }
+  
+    #gcoedu-features
+      .gcoedu-features-area
+      .gcoedu-features-content
+      .gcoedu-single-feature
+      h4::after {
+      display: none;
+    }
+  
+    #gcoedu-latest-courses
+      .gcoedu-latest-courses-area
+      .gcoedu-latest-courses-content
+      .gcoedu-latest-course-single
+      .gcoedu-latest-course-img
+      .gcoedu-latest-course-imgcaption
+      a {
+      font-size: 14px;
+    }
+  
+    #gcoedu-latest-courses
+      .gcoedu-latest-courses-area
+      .gcoedu-latest-courses-content
+      .gcoedu-latest-course-single
+      .gcoedu-latest-course-img
+      .gcoedu-latest-course-imgcaption
+      span {
+      font-size: 14px;
+    }
+  
+    #gcoedu-from-blog
+      .gcoedu-from-blog-area
+      .gcoedu-from-blog-content
+      .gcoedu-blog-single-item {
+      margin-bottom: 30px;
+    }
+  
+    #gcoedu-footer
+      .gcoedu-footer-top
+      .gcoedu-footer-top-area
+      .gcoedu-footer-widget {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+  
+    #gcoedu-footer
+      .gcoedu-footer-top
+      .gcoedu-footer-top-area
+      .gcoedu-footer-widget
+      .gcoedu-subscribe-form
+      input[type="email"] {
+      width: 50%;
+      margin-right: 10px;
+    }
+  
+    #about-video-popup iframe {
+      height: 350px;
+      width: 80%;
+    }
+  
+    #about-video-popup span {
+      position: absolute;
+      right: 30px;
+      top: 30px;
+      margin-right: 0;
+      margin-top: 0;
+    }
+  
+    #gcoedu-course-content {
+      padding: 50px 0;
+    }
+  
+    #gcoedu-gallery {
+      padding: 50px 0;
+    }
+  
+    #gcoedu-gallery
+      .gcoedu-gallery-area
+      .gcoedu-gallery-content
+      .gcoedu-gallery-body
+      ul
+      li
+      .gcoedu-single-gallery
+      .gcoedu-single-gallery-item
+      .gcoedu-single-gallery-img {
+      height: 320px;
+    }
+  
+    #gcoedu-contact {
+      padding: 50px 0;
+    }
+  
+    #gcoedu-error {
+      padding: 50px 0;
+    }
+  
+    #gcoedu-error .gcoedu-error-area h2 {
+      font-size: 150px;
+      line-height: 1.5;
+    }
+    .center__design {
+      margin-left: 30%;
+    }
+    .center__design .center__logo {
+      margin: 0 !important;
+      width: 100%;
+      justify-content: center !important;
+    }
+  }
+  
+  @media (max-width: 678px) {
+    .statement__title {
+      font-size: 2rem !important;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    #gcoedu-header .gcoedu-header-area .gcoedu-header-top-left .gcoedu-top-phone {
+      display: none;
+    }
+  
+    #gcoedu-slider .gcoedu-slider-single .gcoedu-slider-content h2 {
+      font-size: 25px;
+      line-height: 50px;
+    }
+  
+    #gcoedu-slider .gcoedu-slider-single .gcoedu-slider-img {
+      height: 350px;
+    }
+  
+    #gcoedu-slider .gcoedu-slider-single .gcoedu-slider-content h4 {
+      letter-spacing: 0;
+    }
+  
+    #gcoedu-service {
+      margin-top: 30px;
+    }
+  
+    #gcoedu-service .gcoedu-service-area .gcoedu-service-single {
+      padding: 20px 5px;
+    }
+  
+    #gcoedu-service .gcoedu-service-area .gcoedu-service-single h3 {
+      font-size: 16px;
+    }
+  
+    #gcoedu-slider .gcoedu-slider-single .gcoedu-slider-img figure img {
+      width: auto;
+    }
+  
+    #gcoedu-gallery
+      .gcoedu-gallery-area
+      .gcoedu-gallery-content
+      .gcoedu-gallery-top
+      ul
+      li {
+      padding: 5px 10px;
+      margin-bottom: 5px;
+    }
+  }
+  @media (max-width: 480px) {
+    #gcoedu-header .gcoedu-header-area .gcoedu-header-top-left .gcoedu-top-email {
+      font-size: 12px;
+      margin-top: 3px;
+    }
+  
+    #gcoedu-header
+      .gcoedu-header-area
+      .gcoedu-header-top-left
+      .gcoedu-top-email
+      i {
+      margin-right: 0;
+    }
+  
+    #gcoedu-header
+      .gcoedu-header-area
+      .gcoedu-header-top-right
+      .gcoedu-top-social-nav
+      li
+      a {
+      font-size: 12px;
+      padding: 0 5px;
+    }
+  
+    #gcoedu-slider .gcoedu-slider-single .gcoedu-slider-content h2 {
+      font-size: 18px;
+      line-height: 35px;
+    }
+  
+    #gcoedu-slider .gcoedu-slider-single .gcoedu-slider-content h4 {
+      font-size: 15px;
+      line-height: 16px;
+    }
+  
+    #gcoedu-slider .gcoedu-slider-single .gcoedu-slider-content p {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+  
+    #gcoedu-slider .gcoedu-slider-single .gcoedu-slider-content {
+      padding: 0 2%;
+    }
+  
+    #gcoedu-slider .gcoedu-slider-single .gcoedu-slider-content {
+      top: 5%;
+    }
+  
+    #gcoedu-slider .slick-prev,
+    #gcoedu-slider .slick-next {
+      height: 40px;
+      width: 40px;
+    }
+  
+    #gcoedu-slider .gcoedu-slider-single .gcoedu-slider-img {
+      height: 270px;
+    }
+  
+    #gcoedu-service .gcoedu-service-area .gcoedu-service-single {
+      padding: 20px 15px;
+      width: 100%;
+    }
+  
+    #gcoedu-service .gcoedu-service-area .gcoedu-service-single h3 {
+      font-size: 18px;
+    }
+  
+    #about-video-popup iframe {
+      height: 300px;
+      margin: 5% auto;
+      width: 80%;
+    }
+  
+    #gcoedu-footer
+      .gcoedu-footer-top
+      .gcoedu-footer-top-area
+      .gcoedu-footer-widget
+      .gcoedu-subscribe-form
+      input[type="email"] {
+      margin-right: 0;
+      width: 100%;
+    }
+  
+    .gcoedu-pagination {
+      text-align: center;
+    }
+  
+    .gcoedu-pagination .pagination li a {
+      font-size: 14px;
+      margin: 0 2px;
+      padding: 5px 12px;
+    }
+  
+    .gcoedu-blog-single .gcoedu-blog-single-item .gcoedu-blog-description h1 {
+      font-size: 25px;
+    }
+  
+    .gcoedu-blog-single .gcoedu-blog-single-item .gcoedu-blog-description h2 {
+      font-size: 22px;
+      line-height: 30px;
+    }
+  
+    .gcoedu-blog-single .gcoedu-blog-single-item .gcoedu-blog-description h3 {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  
+    .gcoedu-blog-single .gcoedu-blog-single-item .gcoedu-blog-description h4 {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  
+    .gcoedu-blog-single
+      .gcoedu-blog-single-item
+      .gcoedu-blog-social
+      .gcoedu-news-social-nav
+      li
+      a {
+      font-size: 15px;
+      height: 30px;
+      line-height: 30px;
+      min-width: 30px;
+    }
+  
+    #respond input[type="text"],
+    #respond input[type="email"],
+    #respond input[type="url"] {
+      width: 100%;
+    }
+  
+    #gcoedu-gallery
+      .gcoedu-gallery-area
+      .gcoedu-gallery-content
+      .gcoedu-gallery-body
+      ul
+      li
+      .gcoedu-single-gallery
+      .gcoedu-single-gallery-item
+      .gcoedu-single-gallery-img {
+      height: 280px;
+    }
+  
+    #gcoedu-gallery
+      .gcoedu-gallery-area
+      .gcoedu-gallery-content
+      .gcoedu-gallery-top
+      ul
+      li {
+      margin-bottom: 10px;
+    }
+  
+    #gcoedu-contact
+      .gcoedu-contact-area
+      .gcoedu-contact-content
+      .gcoedu-contact-right
+      iframe {
+      height: 350px;
+    }
+  }
+  @media (max-width: 425px) {
+    .center__design {
+      margin-left: 28%;
+    }
+    .center__design .center__logo img {
+      height: 200px;
+    }
+    .app__form .app__text h1 {
+      font-size: 1.5rem !important;
+    }
+    .reg__details h1.reg__details--title {
+      font-size: 1.5rem !important;
+    }
+    input[type="checkbox"] {
+      right: -1rem !important;
+    }
+  }
+  
+  @media (max-width: 388px) {
+    .center__design {
+      margin-left: 26%;
+    }
+    .center__design .center__logo img {
+      height: 180px;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    input[type="checkbox"] {
+      right: -0.9rem !important;
+      bottom: -0.1rem;
+    }
+    .checkbox__container label span {
+      font-size: 15px !important;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    #gcoedu-about-us .gcoedu-about-us-area .gcoedu-about-us-left h2 {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+  
+    #gcoedu-testimonial
+      .gcoedu-testimonial-area
+      .gcoedu-testimonial-content
+      .gcoedu-testimonial-item
+      .gcoedu-testimonial-quote {
+      padding: 40px 15px 80px;
+    }
+  
+    #gcoedu-footer .gcoedu-footer-top {
+      padding: 50px 0 10px;
+    }
+  
+    .gcoedu-pagination .pagination li a {
+      padding: 5px 8px;
+    }
+  
+    .gcoedu-comments-area .comments .commentlist li .news-img {
+      margin-right: 0;
+    }
+  
+    .gcoedu-comments-area .comments .commentlist .children {
+      margin-left: 10px;
+    }
+  
+    .gcoedu-blog-single
+      .gcoedu-blog-single-item
+      .gcoedu-blog-social
+      .gcoedu-news-social-nav
+      li
+      a {
+      margin-bottom: 10px;
+    }
+  
+    #gcoedu-gallery
+      .gcoedu-gallery-area
+      .gcoedu-gallery-content
+      .gcoedu-gallery-body
+      ul
+      li
+      .gcoedu-single-gallery
+      .gcoedu-single-gallery-item
+      .gcoedu-single-gallery-img {
+      height: 220px;
+    }
+  
+    #gcoedu-contact
+      .gcoedu-contact-area
+      .gcoedu-contact-content
+      .gcoedu-contact-right
+      iframe {
+      height: 300px;
+    }
+  
+    #gcoedu-error .gcoedu-error-area p {
+      font-size: 18px;
+    }
+  
+    #gcoedu-error .gcoedu-error-area span {
+      font-size: 14px;
+    }
+  
+    #gcoedu-error .gcoedu-error-area h2 {
+      font-size: 100px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .checkbox__container label span {
+      font-size: 12.9px !important;
+    }
+  }
+  
+  /* BUTTON ANIMATION DESIGN STYLING START HERE */
+  /* .gcoedu-footer-widget .subscribe {
+    position: relative;
+    display: inline-block;
+    padding: 15px 20px;
+    color: #0aec61d4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+  }
+  
+  .gcoedu-footer-widget .subscribe:hover {
+    background: #0aec61d4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #04933c, 0 0 25px #04933c, 0 0 50px #04933c,
+      0 0 100px #04933c;
+  }
+  
+  .gcoedu-footer-widget .subscribe span {
+    position: absolute;
+    display: block;
+    z-index: 2;
+  }
+  
+  .gcoedu-footer-widget .subscribe span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #0aec61d4);
+    animation: btn-anim1 1s linear infinite;
+  }
+  
+  @keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+    50%,
+    100% {
+      left: 100%;
+    }
+  } */
+  
+  .gcoedu-footer-widget .subscribe span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #0aec61d4);
+    animation: btn-anim2 1s linear infinite;
+    /* animation-delay: .25s */
+  }
+  
+  @keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+    50%,
+    100% {
+      top: 100%;
+    }
+  }
+  
+  .gcoedu-footer-widget .subscribe span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #0aec61d4);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: 0.5s;
+  }
+  
+  @keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+    50%,
+    100% {
+      right: 100%;
+    }
+  }
+  
+  .gcoedu-footer-widget .subscribe span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #0aec61d4);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: 0.75s;
+  }
+  
+  @keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+    50%,
+    100% {
+      bottom: 100%;
+    }
+  }
+  /* BUTTON ANIMATION DESIGN STYLING ENDS HERE */
+  
